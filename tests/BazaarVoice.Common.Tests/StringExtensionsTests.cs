@@ -55,7 +55,7 @@ namespace BazaarVoice.Common.Tests
 
         [Theory]
         [InlineData("john.doe@example.com", "j***@example.com")]
-        [InlineData("a@example.com", "a@example.com")]
+        [InlineData("a@example.com", "*@example.com")]
         [InlineData("", "[empty]")]
         [InlineData(null, "[empty]")]
         [InlineData("invalid", "[invalid]")]
