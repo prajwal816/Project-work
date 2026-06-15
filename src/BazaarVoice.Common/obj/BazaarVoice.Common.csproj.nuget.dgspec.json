@@ -22,16 +22,16 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "framework": "net6.0",
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "framework": "net8.0",
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -48,17 +48,17 @@
         "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
-        "net6.0": {
-          "framework": "net6.0",
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.Extensions.Http.Polly": {
               "target": "Package",
-              "version": "[6.0.25, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[8.0.1, )"
             },
             "Polly": {
               "target": "Package",
@@ -66,7 +66,7 @@
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[8.0.4, )"
             }
           },
           "imports": [
@@ -83,15 +83,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
+              "version": "[8.0.27, 8.0.27]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
+              "version": "[8.0.27, 8.0.27]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
+              "version": "[8.0.27, 8.0.27]"
             }
           ],
           "frameworkReferences": {
@@ -99,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

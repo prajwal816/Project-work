@@ -53,7 +53,7 @@ resource blobProcessorFunc 'Microsoft.Web/sites@2023-01-01' = {
     serverFarmId: appServicePlan.id
     httpsOnly: true
     siteConfig: {
-      netFrameworkVersion: 'v6.0'
+      netFrameworkVersion: 'v8.0'
       appSettings: [
         {
           name: 'AzureWebJobsStorage'
@@ -61,7 +61,7 @@ resource blobProcessorFunc 'Microsoft.Web/sites@2023-01-01' = {
         }
         {
           name: 'FUNCTIONS_WORKER_RUNTIME'
-          value: 'dotnet'
+          value: 'dotnet-isolated'
         }
         {
           name: 'FUNCTIONS_EXTENSION_VERSION'
@@ -108,7 +108,7 @@ resource messageProcessorFunc 'Microsoft.Web/sites@2023-01-01' = {
     serverFarmId: appServicePlan.id
     httpsOnly: true
     siteConfig: {
-      netFrameworkVersion: 'v6.0'
+      netFrameworkVersion: 'v8.0'
       appSettings: [
         {
           name: 'AzureWebJobsStorage'
@@ -116,7 +116,7 @@ resource messageProcessorFunc 'Microsoft.Web/sites@2023-01-01' = {
         }
         {
           name: 'FUNCTIONS_WORKER_RUNTIME'
-          value: 'dotnet'
+          value: 'dotnet-isolated'
         }
         {
           name: 'FUNCTIONS_EXTENSION_VERSION'
