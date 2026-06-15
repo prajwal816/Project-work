@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BazaarVoice.Functions.BlobProcessor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c380dbb7499a4d94cdade21eee001f796b8c455")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d56b4e876f3719425e1a63de6bdaacc46936d82")]
 [assembly: System.Reflection.AssemblyProductAttribute("BazaarVoice.Functions.BlobProcessor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BazaarVoice.Functions.BlobProcessor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BazaarVoice.Functions.MessageProcessor.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1552984da28659e0125de9f6e060beb609fbbe69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d56b4e876f3719425e1a63de6bdaacc46936d82")]
 [assembly: System.Reflection.AssemblyProductAttribute("BazaarVoice.Functions.MessageProcessor.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BazaarVoice.Functions.MessageProcessor.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
