@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "W5goTFH66Pw=",
+  "success": true,
+  "projectFilePath": "C:\\Stored\\All Files\\Coding\\Internships\\NTE\\Project-work\\src\\BazaarVoice.Common\\BazaarVoice.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\prajw\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.4\\microsoft.extensions.logging.abstractions.6.0.4.nupkg.sha512",
+    "C:\\Users\\prajw\\.nuget\\packages\\polly\\7.2.4\\polly.7.2.4.nupkg.sha512",
+    "C:\\Users\\prajw\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\prajw\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\prajw\\.nuget\\packages\\system.text.json\\6.0.9\\system.text.json.6.0.9.nupkg.sha512",
+    "C:\\Users\\prajw\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\prajw\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\prajw\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'System.Text.Json' 6.0.9 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
+      "projectPath": "C:\\Stored\\All Files\\Coding\\Internships\\NTE\\Project-work\\src\\BazaarVoice.Common\\BazaarVoice.Common.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Stored\\All Files\\Coding\\Internships\\NTE\\Project-work\\src\\BazaarVoice.Common\\BazaarVoice.Common.csproj",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
