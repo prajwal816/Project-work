@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wKnu2Yh2RTA=",
+  "dgSpecHash": "g3U+2zVK9so=",
   "success": true,
   "projectFilePath": "C:\\Stored\\All Files\\Coding\\Internships\\NTE\\Project-work\\src\\BazaarVoice.Common\\BazaarVoice.Common.csproj",
   "expectedPackageFiles": [
@@ -21,24 +21,10 @@
     "C:\\Users\\prajw\\.nuget\\packages\\polly\\7.2.4\\polly.7.2.4.nupkg.sha512",
     "C:\\Users\\prajw\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\prajw\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
-    "C:\\Users\\prajw\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\prajw\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512",
+    "C:\\Users\\prajw\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
     "C:\\Users\\prajw\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
     "C:\\Users\\prajw\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",
     "C:\\Users\\prajw\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.27\\microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'System.Text.Json' 8.0.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
-      "projectPath": "C:\\Stored\\All Files\\Coding\\Internships\\NTE\\Project-work\\src\\BazaarVoice.Common\\BazaarVoice.Common.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Stored\\All Files\\Coding\\Internships\\NTE\\Project-work\\src\\BazaarVoice.Common\\BazaarVoice.Common.csproj",
-      "libraryId": "System.Text.Json",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

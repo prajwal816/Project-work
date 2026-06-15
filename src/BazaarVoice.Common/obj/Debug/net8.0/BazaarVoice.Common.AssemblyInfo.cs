@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BazaarVoice.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cfa7d530009796ca54e6aa7b5461795ba4c733d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c380dbb7499a4d94cdade21eee001f796b8c455")]
 [assembly: System.Reflection.AssemblyProductAttribute("BazaarVoice.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BazaarVoice.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
