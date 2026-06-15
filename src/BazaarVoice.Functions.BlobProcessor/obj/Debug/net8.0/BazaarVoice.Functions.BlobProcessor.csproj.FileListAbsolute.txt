@@ -1,0 +1,6 @@
+C:\Stored\All Files\Coding\Internships\NTE\Project-work\src\BazaarVoice.Functions.BlobProcessor\obj\Debug\net8.0\BazaarVoice.Functions.BlobProcessor.csproj.AssemblyReference.cache
+C:\Stored\All Files\Coding\Internships\NTE\Project-work\src\BazaarVoice.Functions.BlobProcessor\obj\Debug\net8.0\BazaarVoice.Functions.BlobProcessor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Stored\All Files\Coding\Internships\NTE\Project-work\src\BazaarVoice.Functions.BlobProcessor\obj\Debug\net8.0\BazaarVoice.Functions.BlobProcessor.AssemblyInfoInputs.cache
+C:\Stored\All Files\Coding\Internships\NTE\Project-work\src\BazaarVoice.Functions.BlobProcessor\obj\Debug\net8.0\BazaarVoice.Functions.BlobProcessor.AssemblyInfo.cs
+C:\Stored\All Files\Coding\Internships\NTE\Project-work\src\BazaarVoice.Functions.BlobProcessor\obj\Debug\net8.0\BazaarVoice.Functions.BlobProcessor.csproj.CoreCompileInputs.cache
+C:\Stored\All Files\Coding\Internships\NTE\Project-work\src\BazaarVoice.Functions.BlobProcessor\obj\Debug\net8.0\BazaarVoice.Functions.BlobProcessor.sourcelink.json
