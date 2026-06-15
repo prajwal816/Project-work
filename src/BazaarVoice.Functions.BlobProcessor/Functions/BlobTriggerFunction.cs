@@ -3,9 +3,9 @@ using BazaarVoice.Common.Constants;
 using BazaarVoice.Common.Exceptions;
 using BazaarVoice.Functions.BlobProcessor.Models;
 using BazaarVoice.Functions.BlobProcessor.Services;
+using Microsoft.Azure.Functions.Worker;
 using Microsoft.ApplicationInsights;
 using Microsoft.ApplicationInsights.DataContracts;
-using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Logging;
 
 namespace BazaarVoice.Functions.BlobProcessor.Functions
@@ -43,14 +43,13 @@ namespace BazaarVoice.Functions.BlobProcessor.Functions
             _logger = logger;
         }
 
-        [FunctionName("BazaarVoiceBlobTrigger")]
+        [Function("BazaarVoiceBlobTrigger")]
         public async Task RunAsync(
             [BlobTrigger(
                 "bazaarvoice/incoming/fromBazaarVoice/{fileName}",
                 Connection = "BazaarVoiceStorageConnection")] // PLACEHOLDER: Connection string name in app settings
             Stream blobStream,
-            string fileName,
-            ILogger log)
+            string fileName)
         {
             var operationId = Guid.NewGuid().ToString();
             var stopwatch = Stopwatch.StartNew();

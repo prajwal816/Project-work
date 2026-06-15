@@ -1,11 +1,12 @@
 using System.Text.Json;
+using Azure.Messaging.ServiceBus;
 using BazaarVoice.Common.Constants;
 using BazaarVoice.Common.Exceptions;
 using BazaarVoice.Common.Models;
 using BazaarVoice.Functions.MessageProcessor.Services;
 using Microsoft.ApplicationInsights;
 using Microsoft.ApplicationInsights.DataContracts;
-using Microsoft.Azure.WebJobs;
+using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 
 namespace BazaarVoice.Functions.MessageProcessor.Functions
@@ -39,14 +40,13 @@ namespace BazaarVoice.Functions.MessageProcessor.Functions
             _logger = logger;
         }
 
-        [FunctionName("BazaarVoiceMessageProcessor")]
+        [Function("BazaarVoiceMessageProcessor")]
         public async Task RunAsync(
             [ServiceBusTrigger(
-                topicName: AppConstants.ServiceBusTopicName,       // "sbt-bazaarvoice-records"
-                subscriptionName: AppConstants.ServiceBusSubscriptionName, // "sbs-bazaarvoice-loyalty"
-                Connection = "ServiceBusConnection")]              // PLACEHOLDER: Connection string name
-            Azure.Messaging.ServiceBus.ServiceBusReceivedMessage message,
-            ILogger log)
+                "sbt-bazaarvoice-records",           // PLACEHOLDER: Your Service Bus Topic name
+                "sbs-bazaarvoice-loyalty",            // PLACEHOLDER: Your Subscription name
+                Connection = "ServiceBusConnection")] // PLACEHOLDER: Connection string name
+            ServiceBusReceivedMessage message)
         {
             var correlationId = message.CorrelationId ?? Guid.NewGuid().ToString();
             using var operation = _telemetryClient.StartOperation<RequestTelemetry>(
